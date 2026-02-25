@@ -225,15 +225,27 @@ export const faqs = [
 
 export const journalEntries: JournalEntry[] = [
   {
-    slug: "material-notes-black-calfskin",
-    title: "Material Notes: Black Calfskin",
-    topic: "Craft",
-    excerpt: "How grain depth, tanning process, and hand finish alter the life of leather goods.",
-    body: "We select calfskin by tactile resilience first, then dye penetration, then edge response under pressure. This sequence preserves structure while maintaining softness over time.",
+    slug: "principles-of-quiet-luxury-commerce",
+    title: "Principles of Quiet Luxury Commerce",
+    topic: "Brand",
+    excerpt:
+      "Why confident ecommerce design relies on rhythm, whitespace, and editorial hierarchy.",
+    body: "A strong storefront does not compete with product. It guides with measured contrast, deliberate pacing, and a restrained voice that keeps trust central.",
     image:
-      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1400",
-    published: "January 12, 2026",
-    readTime: "5 min read",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&q=80&w=1400",
+    published: "February 19, 2026",
+    readTime: "7 min read",
+  },
+  {
+    slug: "fragrance-pairing-guide",
+    title: "Fragrance Pairing Guide",
+    topic: "Fragrance",
+    excerpt: "Layering oils and extrait compositions for evening wear and formal settings.",
+    body: "For formal occasions, begin with a dry base oil and finish with a projection note at the collarbone. This extends depth without over-saturating the room.",
+    image:
+      "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&q=80&w=1200",
+    published: "February 4, 2026",
+    readTime: "4 min read",
   },
   {
     slug: "inside-the-tailoring-studio",
@@ -247,27 +259,15 @@ export const journalEntries: JournalEntry[] = [
     readTime: "6 min read",
   },
   {
-    slug: "fragrance-pairing-guide",
-    title: "Fragrance Pairing Guide",
-    topic: "Fragrance",
-    excerpt: "Layering oils and extrait compositions for evening wear and formal settings.",
-    body: "For formal occasions, begin with a dry base oil and finish with a projection note at the collarbone. This extends depth without over-saturating the room.",
+    slug: "material-notes-black-calfskin",
+    title: "Material Notes: Black Calfskin",
+    topic: "Craft",
+    excerpt: "How grain depth, tanning process, and hand finish alter the life of leather goods.",
+    body: "We select calfskin by tactile resilience first, then dye penetration, then edge response under pressure. This sequence preserves structure while maintaining softness over time.",
     image:
-      "https://images.unsplash.com/photo-1592945403407-9caf930b5f44?auto=format&fit=crop&q=80&w=1400",
-    published: "February 4, 2026",
-    readTime: "4 min read",
-  },
-  {
-    slug: "principles-of-quiet-luxury-commerce",
-    title: "Principles of Quiet Luxury Commerce",
-    topic: "Brand",
-    excerpt:
-      "Why confident ecommerce design relies on rhythm, whitespace, and editorial hierarchy.",
-    body: "A strong storefront does not compete with product. It guides with measured contrast, deliberate pacing, and a restrained voice that keeps trust central.",
-    image:
-      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&q=80&w=1400",
-    published: "February 19, 2026",
-    readTime: "7 min read",
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1400",
+    published: "January 12, 2026",
+    readTime: "5 min read",
   },
 ];
 
