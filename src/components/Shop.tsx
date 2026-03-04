@@ -94,7 +94,7 @@ export default function Shop({ initialProducts }: Props) {
       </section>
 
       <section className="section content-wrap shop-section">
-        <div className="product-grid">
+        <div className="product-grid grid-4">
           {filteredProducts.map((item) => (
             <article className="product-card" key={item.id}>
               <a className="image-shell" href={`/product/${item.id}`}>
