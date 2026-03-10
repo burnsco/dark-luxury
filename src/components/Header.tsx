@@ -1,6 +1,6 @@
-import { useStore } from '@nanostores/react';
-import { cartCount, toggleDrawer } from '../stores/cartStore';
-import { useState, useEffect } from 'react';
+import { useStore } from "@nanostores/react";
+import { cartCount, toggleDrawer } from "../stores/cartStore";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const $cartCount = useStore(cartCount);
@@ -9,17 +9,17 @@ export default function Header() {
   // In Astro, we can use standard <a> tags or Astro's prefetch.
   // For the active state, we can either pass the current path or check window.location.
 
-  const [currentPath, setCurrentPath] = useState('');
+  const [currentPath, setCurrentPath] = useState("");
 
   useEffect(() => {
     setCurrentPath(window.location.pathname);
   }, []);
 
   const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/about', label: 'Maison' },
-    { href: '/shop', label: 'Shop' },
-    { href: '/journal', label: 'Journal' },
+    { href: "/", label: "Home" },
+    { href: "/about", label: "Maison" },
+    { href: "/shop", label: "Shop" },
+    { href: "/journal", label: "Journal" },
   ];
 
   return (

@@ -1,4 +1,4 @@
-import { addToCart } from '../stores/cartStore';
+import { addToCart } from "../stores/cartStore";
 
 interface Props {
   productId: string;

@@ -1,5 +1,5 @@
-import { atom, computed } from 'nanostores';
-import { products, type Product } from '../data/storefront';
+import { atom, computed } from "nanostores";
+import { products, type Product } from "../data/storefront";
 
 export type CartItem = {
   product: Product;
@@ -49,7 +49,7 @@ export function updateQuantity(id: string, quantity: number) {
 }
 
 export function toggleDrawer(open?: boolean) {
-  if (typeof open === 'boolean') {
+  if (typeof open === "boolean") {
     drawerOpen.set(open);
   } else {
     drawerOpen.set(!drawerOpen.get());

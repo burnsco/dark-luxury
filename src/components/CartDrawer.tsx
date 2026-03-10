@@ -1,7 +1,7 @@
-import { useStore } from '@nanostores/react';
-import { cartLines, subtotal, drawerOpen, toggleDrawer, updateQuantity } from '../stores/cartStore';
-import { currency } from '../data/storefront';
-import { useEffect } from 'react';
+import { useStore } from "@nanostores/react";
+import { cartLines, subtotal, drawerOpen, toggleDrawer, updateQuantity } from "../stores/cartStore";
+import { currency } from "../data/storefront";
+import { useEffect } from "react";
 
 export default function CartDrawer() {
   const $cartLines = useStore(cartLines);
