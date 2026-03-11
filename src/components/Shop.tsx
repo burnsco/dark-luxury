@@ -33,15 +33,15 @@ export default function Shop({ initialProducts }: Props) {
     });
 
     if (sortMode === "price-asc") {
-      return [...visibleProducts].sort((a, b) => a.price - b.price);
+      return [...visibleProducts].toSorted((a, b) => a.price - b.price);
     }
 
     if (sortMode === "price-desc") {
-      return [...visibleProducts].sort((a, b) => b.price - a.price);
+      return [...visibleProducts].toSorted((a, b) => b.price - a.price);
     }
 
     if (sortMode === "name-asc") {
-      return [...visibleProducts].sort((a, b) => a.name.localeCompare(b.name));
+      return [...visibleProducts].toSorted((a, b) => a.name.localeCompare(b.name));
     }
 
     return visibleProducts;

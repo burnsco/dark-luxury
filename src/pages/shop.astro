@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Shop from '../components/Shop';
+import ShopComponent from '../components/Shop';
 import { products } from '../data/storefront';
 ---
 
@@ -11,5 +11,5 @@ import { products } from '../data/storefront';
     <p>Tailored pieces and objets selected for form, utility, and permanence.</p>
   </section>
 
-  <Shop client:load initialProducts={products} />
+  <ShopComponent client:load initialProducts={products} />
 </Layout>

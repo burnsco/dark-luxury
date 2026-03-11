@@ -10,7 +10,8 @@
     "check": "astro check",
     "lint": "oxlint",
     "format": "oxfmt",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint:fix": "oxlint --fix . && oxfmt"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.7",
@@ -18,7 +19,7 @@
     "@astrojs/react": "^5.0.0",
     "@astrojs/sitemap": "^3.7.1",
     "@astrojs/ts-plugin": "^1.10.7",
-    "astro": "^6.0.1",
+    "astro": "^6.0.3",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.1"
@@ -33,15 +34,15 @@
     "lint-staged": "^16.3.3",
     "nanostores": "^1.1.1",
     "oxfmt": "^0.37.0",
-    "oxlint": "^1.52.0",
+    "oxlint": "^1.53.0",
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },
-  "packageManager": "bun@1.3.9",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "oxlint --fix",
       "oxfmt"
     ]
-  }
+  },
+  "packageManager": "bun@1.3.9"
 }
