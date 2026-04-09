@@ -5,7 +5,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://dluxury.coreyburns.ca",
+  site: "https://dark-luxury.coreyburns.ca",
   output: "static",
   adapter: cloudflare(),
   integrations: [react(), sitemap()],
