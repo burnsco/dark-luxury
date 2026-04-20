@@ -18,16 +18,16 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-router-dom": "^7.14.1",
-    "wrangler": "^4.83.0"
+    "wrangler": "^4.84.0"
   },
   "devDependencies": {
     "@astrojs/react": "^5.0.3",
-    "@astrojs/sitemap": "^3.6.0",
+    "@astrojs/sitemap": "^3.7.2",
     "@biomejs/biome": "^2.4.12",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "astro": "^6.1.8",
     "typescript": "~6.0.3",
-    "vite": "^8.0.8"
+    "vite": "^8.0.9"
   }
 }
